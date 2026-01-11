@@ -10,10 +10,8 @@ A Java application that monitors a directory for file changes using the Observer
 
 ## Usage
 
------------------------
 javac *.java
 java Driver
------------------------
 
 The application monitors `./TestFolder` by default. Edit `Driver.java` to change the directory path.
 
@@ -27,8 +25,8 @@ FileWatcher polls the directory every 3 seconds and notifies registered observer
 
 ## Example Output
 
----------------------------------------------------------------------
 [Observer 1] [02:30:15 PM] File added: document.txt
+
 [Observer 1] [02:30:21 PM] File renamed: document.txt → report.txt
+
 [Observer 1] [02:30:27 PM] File Modification detected: report.txt
----------------------------------------------------------------------
